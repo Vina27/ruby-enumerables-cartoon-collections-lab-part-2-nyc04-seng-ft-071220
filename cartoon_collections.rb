@@ -24,9 +24,8 @@ end
   # Return a new array of the results
 
 def summon_captain_planet(planeteer_calls)
-  #planeteer_calls = 0 
   planeteer_calls.map do |element|
-    element
+    element 
   end 
 end 
     
