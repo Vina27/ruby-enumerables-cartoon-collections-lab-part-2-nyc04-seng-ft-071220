@@ -1,14 +1,17 @@
 def square_array(array)
-  new_array = []
-  index = 0 
-  
-  while index < array.length do 
-    new_array << array[index] + array[index]
-    index += 1 
+  array.map do |element|
+    element * element 
   end 
-
-new_array 
 end 
+
+  # new_array = []
+  # index = 0 
+  
+  # while index < array.length do 
+  #   new_array << array[index] + array[index]
+  #   index += 1 
+  # end 
+
 
 
 
