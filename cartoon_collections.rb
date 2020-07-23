@@ -19,13 +19,6 @@ end
 #   end
 #   new_array
 # end
- 
-
-
-
-
-
-
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
 
