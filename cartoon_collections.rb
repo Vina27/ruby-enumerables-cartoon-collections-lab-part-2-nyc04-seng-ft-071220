@@ -21,11 +21,11 @@ end
   # Return a new array of the results
 
 def long_planeteer_calls(planeteer_calls)
-    planeteer_calls.each do |call|
-      call > 4.length 
+    planeteer_calls.each {|call| call.length >= 4}
     end 
   end
   
+  %w[ant bear cat].all? { |word| word.length >= 4 }
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
 
