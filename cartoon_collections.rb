@@ -25,7 +25,8 @@ end
 
 def summon_captain_planet(planeteer_calls)
   #planeteer_calls = 0 
-  planeteer_calls.map(&:upcase) do |element|
+  planeteer_calls.map do |element|
+    element
   end 
 end 
     
